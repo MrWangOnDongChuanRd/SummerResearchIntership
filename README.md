@@ -1,1 +1,1 @@
-# SummerResearchIntership
+# Summer Research Intership
