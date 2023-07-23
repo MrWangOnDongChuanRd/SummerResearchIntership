@@ -43,3 +43,9 @@ $\text{transformed(IC50)}=1-\frac{1-log(\text{IC50})}{log(5000)}$.
 | :---------------: | :--------------------------: |
 |      0.13967      |           0.97368            |
 
+`predict.py`接受文件的输入，加载了之前保存的Numpy字典和训练模型，对结合力以及免疫原性进行预测后产出格式化的结果文件。使用样例：
+
+```shell
+python predict.py data/sample.txt
+```
+
