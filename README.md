@@ -1,4 +1,4 @@
-# Reproduction of DeepNetBim
+# Reproduction of `DeepNetBim`
 
 ## 数据预处理
 
@@ -37,7 +37,7 @@ $\text{transformed(IC50)}=1-\frac{1-log(\text{IC50})}{log(5000)}$.
 
 <img src="src/plot/immuno_loss_plot.png" alt="immuno_loss_plot" width="600" />
 
-最后，运用`test_model()`可以加载我们预先训练好的模型。可以看到，我们的模型在预测亲和力和免疫原性上都有不错的表现
+最后，运用`test_model()`可以加载我们预先训练好的模型。可以发现，我们的模型在预测亲和力和免疫原性上都有不错的表现：
 
 | Affinity test MSE | Immunogenicity test accuracy |
 | :---------------: | :--------------------------: |
