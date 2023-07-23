@@ -29,13 +29,13 @@ $\text{transformed(IC50)}=1-\frac{1-log(\text{IC50})}{log(5000)}$.
 
 我们将数据以7:3的比例随机划分为训练集和测试集。在训练过程中将训练日志保存在`src/log`文件夹下，接下来使用`plot.py`来绘制训练过程中的损失曲线和准确率曲线，以帮助分析和监控模型的训练进展和性能。对于结合力模型，我们绘制了训练MSE和验证MSE曲线
 
-<img src="src/plot/bind_MSE_plot.png" alt="bind_MSE_plot" style="zoom:50%;" />
+<img src="src/plot/bind_MSE_plot.png" alt="bind_MSE_plot" style="zoom:40%;" />
 
 对于免疫原性模型，我们绘制了分类准确率曲线和损失曲线
 
-<img src="src/plot/immuno_accuracy_plot.png" alt="immuno_accuracy_plot" style="zoom:50%;" />
+<img src="src/plot/immuno_accuracy_plot.png" alt="immuno_accuracy_plot" style="zoom:40%;" />
 
-<img src="src/plot/immuno_loss_plot.png" alt="immuno_loss_plot" style="zoom:50%;" />
+<img src="src/plot/immuno_loss_plot.png" alt="immuno_loss_plot" style="zoom:40%;" />
 
 最后，运用`test_model()`可以加载我们预先训练好的模型。可以看到，我们的模型在预测亲和力和免疫原性上都有不错的表现
 
